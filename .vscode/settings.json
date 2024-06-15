@@ -1,0 +1,8 @@
+{
+    "workbench.colorCustomizations": {
+        "activityBar.foreground": "#00ff00",
+        "activityBarBadge.background":"#8400ff",
+         "[Monokai]": {
+        "sideBar.background": "#347890"}
+    }
+}

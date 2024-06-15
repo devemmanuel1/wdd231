@@ -1,45 +1,44 @@
 <!DOCTYPE html>
+
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-    
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-        <title>WDD 231 - Dynamic Web Fundamentals - Emmanuel Onyenatuluchi Ezechukwu</title>
-    
-        <meta name="description" content="WDD 231 - Dynamic Web Fundamentals Emmanuel Onyenatuluchi Ezechukwu. This is the week 1 assignment Home Page.">
-    
-        <meta  name="author" content="Emmanuel Onyenatuluchi Ezechukwu">
-    
-        <link rel="stylesheet" href="styles/home.css">
-    
-        <script src="scripts/home.js" defer ></script>
-    
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-    
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    
-        <!-- <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet"> -->
-    </head>
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>WDD 231 - Web Frontend Development - Emmanuel Onyenatuluchi Ezechukwu</title>
+
+    <meta name="description" content="WDD 231 - Dynamic Web Fundamentals Emmanuel Onyenatuluchi Ezechukwu. This is the week 1 assignment Home Page.">
+
+    <meta name="author" content="Emmanuel Onyenatuluchi Ezechukwu">
+
+    <link rel="stylesheet" href="styles/home.css">
+
+    <script src="scripts/home.js" defer></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+</head>
+
 <body>
     <header>
         <h1>WDD 231 - Web Frontend Development I</h1>
-        <div class="profile">
-            <img src="images/profile.jpg" alt="Emmanuel Ezechukwu">
-            <h1>Emmanuel O. Ezechukwu</h1>
-        </div>
-        <nav>
-            <ul>
-                <li><a href="https://www.linkedin.com/in/emmanuel-ezechukwu/">LinkedIn</a></li>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="https://github.com/devemmanuel1">Github Profile
-                    </a></li>
-                <li><a href="Chamber.html">Chamber</a></li>
-            </ul>
+        <button id="menu" aria-label="menu"></button>
+        <nav class="navigation">
+            <a href="https://www.linkedin.com/in/emmanuel-ezechukwu/" target="_blank">LinkedIn</a>
+            <a href="index.html" class="active">Home</a>
+            <a href="https://github.com/devemmanuel1" target="_blank">GitHub</a>
+            <a href="chamber.html" target="_blank">Chamber</a>
         </nav>
     </header>
     <main>
-        <section class="coursework">
+        <section class="course-work">
             <h2>Course Work</h2>
             <ul>
                 <li></li>
@@ -47,20 +46,22 @@
                 <li></li>
             </ul>
         </section>
-        <section class="location">
+        <section class="enugu-nigeria">
             <h2>Enugu, Nigeria</h2>
-            <img src="images/Enugu.jpg" alt="Enugu State" loading="lazy" width="400" height="600">
-            <p>Enugu, Nigeria</p>
+            <figure>
+                <img src="images/Enugu.jpg" alt="Enugu State">
+                <figcaption>Enugu, Nigeria</figcaption>
+            </figure>
         </section>
         <section class="certificate">
             <h2>Web and Computer Programming Certificate</h2>
             <div class="filter-buttons">
-                <button onclick="filterCourses('all')">All</button>
-                <button onclick="filterCourses('CSE')">CSE</button>
-                <button onclick="filterCourses('WDD')">WDD</button>
+                <button id="allCourses" aria-label="allCourses">All</button>
+                <button id="cseCourses" aria-label="cseCourses">CSE</button>
+                <button id="wddCourses" aria-label="wddCourses">WDD</button>
             </div>
-            <div class="courses" id="coursesContainer">
-            </div>
+            <div id="courseSection"></div>
+            <p>Total Credits Required: <span id="totalCredits"></span></p>
         </section>
     </main>
     <footer>
@@ -71,7 +72,6 @@
             <span>Enugu, Nigeria. </span>
         </p>
         <p id="lastModified">
-
         </p>
     </footer>
 </body>
