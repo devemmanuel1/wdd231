@@ -152,10 +152,12 @@ footer {
     padding: 0;
     box-sizing: border-box;
     font-family: "Roboto", sans-serif;
+    color: #333;
 }
 
 body {
     font-family: "Roboto", sans-serif;
+    color: #333;;
 }
 
 h1,
@@ -209,9 +211,9 @@ header {
     content: "☰";
 }
 
-/* #menu.open::before {
+#menu.open::before {
     content: "❌";
-} */
+}
 
 .navigation {
     grid-column: 1/3;
@@ -230,11 +232,6 @@ header {
     display: block;
 }
 
-.active::before,
-.active::after {
-    content: "🔷";
-}
-
 section {
     border: 1px solid rgba(0, 0, 0, .3);
     border-radius: .5rem;
@@ -244,6 +241,23 @@ section {
 section h2 {
     text-align: center;
     background-color: #007bff;
+}
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+    }
+
+    header nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .filter-buttons {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }
 
 .filter-buttons {
@@ -261,7 +275,7 @@ section h2 {
 }
 
 .filter-buttons button:hover {
-    background-color: var(--secondary-color);
+    background-color: #007bff;
 }
 
 #courseSection p {
