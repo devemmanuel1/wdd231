@@ -1,0 +1,67 @@
+{
+    "companies": [
+        {
+    "names" : "Dangote Cement Plc",
+    "address": "Dangote House, Broad Street, Lagos, Nigeria",
+    "phone_numbers": "+234 1 279 2100",
+    "website_url": "https://www.dangote.com/",
+    "image_file_name": "dangote.jpg",
+    "membership_level": 3, 
+    "other_info": "Largest cement producer in Africa"
+  },
+  {
+    "names": "MTN Nigeria",
+    "address": "Head Office, MTN Nigeria Communications Limited, Falomo Street, Ikoyi, Lagos, Nigeria",
+    "phone_numbers": "+234 800 123 4567",
+    "website_url": "https://www.mtn.com/en/nigeria/",
+    "image_file_name": "mtn.jpg",
+    "membership_level": 2, 
+    "other_info": "Largest mobile network operator in Nigeria"
+  },
+  {
+    "names": "Guaranty Trust Bank Plc (GTBank)",
+    "address": "Plot 66B, Oko Awo Street, Victoria Island, Lagos, Nigeria",
+    "phone_numbers": "+234 700 Call GTB (2255 482)",
+    "website_url": "https://www.gtbank.com/",
+    "image_file_name": "gtbank.jpg",
+    "membership_level": 3, 
+    "other_info": "Leading financial institution in Nigeria" 
+  },
+  {
+    "names": "Jumia Nigeria",
+    "address": "Lekki Phase 1, Lagos, Nigeria",
+    "phone_number": "+234 1 880 0940",
+    "website_url": "https://www.jumia.com.ng/",
+    "image_file_name": "jumia.jg",
+    "membership_level": 2, 
+    "other_info": "Largest e-commerce platform in Nigeria"
+  },
+  {
+    "names": "Paystack",
+    "addresses": "Lekki, Lagos, Nigeria",
+    "phone_numbers": "+234 700 100 7297",
+    "website_url": "https://paystack.com/",
+    "image_file_name": "paystack.jpg",
+    "membership_level": 1,  
+    "other_info": "Fintech company providing online payment solutions"
+  },
+  {
+    "names": "Andela",
+    "addresses": "Victoria Island, Lagos, Nigeria",
+    "phone_numbers": "+234 700 ANDELA (263 352)",
+    "website_url": "https://andela.com/",
+    "image_file_name": "andela.jpg",
+    "membership_level": 1,  
+    "other_info": "Non-profit organization connecting developers with international opportunities"
+  },
+  {
+    "names": "Chocolate City Music",
+    "addresses": "Lekki Phase 1, Lagos, Nigeria",
+    "phone_numbers": "+234 818 xxx xxxx",
+    "website_url": "https://chocolate-city.com/",
+    "image_file_name": "chocolatecity.jpg",
+    "membership_level": 1,  
+    "other_info": "Leading record label in the Nigerian music industry"
+  }
+    ]
+}
