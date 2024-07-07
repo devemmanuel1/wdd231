@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>CHAMBER DIRECTORY PAGE</title>
+
+    <meta name="description" content="WDD 231 - Dynamic Web Fundamentals Emmanuel Onyenatuluchi Ezechukwu. This is the week 2 assignment Directory Page.">
+
+    <meta name="author" content="Emmanuel Onyenatuluchi Ezechukwu">
+
+    <meta property="og:title" content="Emmanuel Onyenatuluchi Ezechukwu Course Home Page">
+
+    <meta property="og:type" content="website">
+    
+    <meta property="og:image" content="https://devemmanuel1.github.io/wdd231/chamber/images/favicon.ico">
+
+    <meta property="og:url" content="https://devemmanuel1.github.io/wdd231">
+
+    <link rel="stylesheet" href="styles/chamber.css">
+
+    <link rel="stylesheet" href="styles/normalize.css">
+
+    <link rel="stylesheet" href="styles/home_large.css">
+
+    <script src="scripts/chamber.js" defer></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+    <link rel="icon" href="favicon.ico">
+</head>
+<body>
+    <header>
+        <div id="mode">
+            <label for="checkbox" class="switch">
+                <input id="checkbox" type="checkbox" name="checkbox">
+                <span class="slider"></span>
+            </label>
+        </div> 
+        <div class="social-media">
+            <a href="#"><img src="images/icons8-instagram-24.png" alt="insta" width="24" height="24"></a>
+            <a href="#"><img src="images/linkedin2.jpg" alt="LinkedIn" width="24" height="24"></a>
+            <a href="#"><img src="images/twitter2.jpg" alt="Twitter" width="24" height="24"></a>
+            <a href="#"><img src="images/youtube2.jpg" alt="youtube" width="24" height="24"></a>
+        </div>
+        <div class="header"> 
+        <img src="images/devemmy.png" alt="Logo image" width="218" height="148">
+        <nav class="navigation">
+            <ul class="nav-links">
+                <li><a class="inactive" href="#">HOME</a></li>
+                <li><a class="inactive" href="discover.html">DISCOVER</a></li>
+                <li><a class="inactive" href="#">DIRECTORY</a></li>
+                <li><a class="active" href="join.html">JOIN</a></li>
+            </ul>
+        </nav>   
+        </div> 
+        <a id="menu" href="#"></a>
+    </header>
+    <main>
+        <h1 class="head-nohome">Well Done!</h1>
+        <p class="thank">Your subscription request was sent. We will keep in touch soon.</p>
+    </main>
+    <footer>
+        <div>
+            <p><strong>Enugu NG Chamber of Commerce</strong></p>
+            <p>84 Refiners Estate</p>
+            <p>Emene, EN 30114</p>
+            <p>08103767291</p>
+        </div>
+        <div class="socials">
+            <a href="https://www.youtube.com/" target="_blank"><img src="images/youtube.jpg" alt="YouTube logo"></a>
+            <a href="https://x.com/" target="_blank"><img src="images/twitter.jpg" alt="Twitter logo"></a>
+            <a href="https://www.linkedin.com/" target="_blank"><img src="images/linkedin.jpg" alt="LinkedIn logo"></a>
+        </div>
+        <div>
+            <p>WDD231 Project</p>
+            <p>❤ Emmanuel Onyenatuluchi Ezechukwu ❤</p>
+            <p>©<span id="currentYear"></span> Enugu NG Chamber of Commerce</p>
+            <p id="lastModified"></p>
+        </div>
+    </footer>
+    <script src="scripts/fade-out.js"></script>
+    <script src="scripts/getdates.js"></script> 
+    <script src="scripts/menu.js"></script>
+    <script src="scripts/toggle-switch.js"></script>
+</body>
+</html>
