@@ -1,0 +1,151 @@
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: #ECF0F1;
+    color: #2C3E50;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: burlywood;
+    color: #ECF0F1;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #18BC9C;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #18BC9C;
+    color: #ff6600;
+}
+
+main {
+    padding: 2rem;
+}
+
+h1, h2 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+footer {
+    background-color: burlywood;
+    color: #ECF0F1;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+footer a:hover {
+    background-color: #18BC9C;
+    color: #ff6600;
+}
+
+form label {
+    display: block;
+    margin: 0.5rem 0 0.2rem;
+}
+
+form input, form textarea, form button {
+    display: block;
+    width: 100%;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+}
+
+h2{
+    display: inline;
+}
+
+img {
+    display: block;
+    background-color: black;
+    animation: fade 5s;
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+form button {
+    background-color: #18BC9C;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+    main.content {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1rem;
+    }
+}
+
+#person {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: gray;
+    position: relative;
+    margin: 20px;
+}
+
+#person ::after{
+    content: "";
+    position: absolute;
+    height: 20px;
+    width: 40px;
+    background-color: gray;
+    top: 22px;
+    left: -10px;
+    border-radius: 50% 50% 0% 0%;
+}
+
+/* #house{
+    position: relative;
+    border-bottom: 20px solid black;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    display:inline;
+}
+
+#house::before, #house::after {
+    content: "";
+    position:absolute;
+    background-color: black;
+    width: 20px;
+    height: 20px;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 10% 100%, 10% 50%, 0% 50%);
+    top: 37px
+}
+
+#house::after{
+    transform: rotateY(180deg);
+    left: -20px;
+} */
+
+/* @keyframes rotate {
+    to {transform: rotate(365);}
+} */
