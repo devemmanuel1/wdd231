@@ -1,0 +1,52 @@
+{
+    "skills": [
+        {
+            "skill": "MySQL",
+            "category": "Database"
+        },
+        {
+            "skill": "Analytical and problem-solving abilities",
+            "category": "Soft Skills"
+        },
+        {
+            "skill": "REST-based APIs",
+            "category": "Web Development"
+        },
+        {
+            "skill": "JavaScript, HTML5, and CSS3",
+            "category": "Web Development"
+        },
+        {
+            "skill": "Strong teamwork and communication skills",
+            "category": "Soft Skills"
+        },
+        {
+            "skill": "Using Python and Django",
+            "category": "Programming"
+        }
+    ],
+    "experience": [
+        {
+            "title": "Automation Script",
+            "company": "Pradech360",
+            "duration": "2021-2022",
+            "responsibilities": [
+                "Implemented testing strategies using tools such as pytest and unittest, ensuring code is free of bugs and errors.",
+                "Conducted code reviews and mentored junior developers, improving code quality and team performance."
+            ]
+        }
+    ],
+    "education": [
+        {
+            "degree": "Pathway Connect Certificate",
+            "institution": "BYU Pathway Worldwide",
+            "date": "July 2023",
+            "highlights": [
+                "Teamwork and collaboration Goals",
+                "Decision Making",
+                "Goals and time management",
+                "Lead student for gatherings"
+            ]
+        }
+    ]
+}
